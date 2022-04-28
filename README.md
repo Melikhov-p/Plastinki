@@ -3,9 +3,16 @@ Django REST API для платформы по продаже инструмен
 Доступные методы:
 
 all_track_types - все типы треков
+
 all_tracks - все треки
-track - один трек
+
+track - один трек (id трека)
+
 all_users - все пользователи
-user - пользователь
-user_login - авторизация
+
+user - пользователь (id пользователя)
+
+user_login - авторизация (username, password)
+
 user_logout - выход
+
